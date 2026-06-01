@@ -560,7 +560,7 @@ function HeroSection() {
         </MagneticButton>
 
         {[
-          { label: "GitHub", href: "https://github.com/MilanPatel10", icon: <GithubIcon/> },
+          { label: "GitHub", href: "https://github.com/MilanPatel10/", icon: <GithubIcon/> },
           { label: "LinkedIn", href: "https://linkedin.com/in/milan-patel-6b8123391/", icon: <LinkedinIcon /> },
         ].map(link => (
           <MagneticButton key={link.label}>
@@ -1143,9 +1143,9 @@ function AboutSection() {
           </p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             {[
-              { label: "GitHub", href: "https://github.com", icon: <GithubIcon/> },
-              { label: "LinkedIn", href: "https://linkedin.com", icon: <LinkedinIcon/> },
-              { label: "Email", href: "mailto:milan@example.com", icon: <Mail size={13} /> },
+              { label: "GitHub", href: "https://github.com/MilanPatel10/", icon: <GithubIcon/> },
+              { label: "LinkedIn", href: "https://www.linkedin.com/in/milan-patel-6b8123391/", icon: <LinkedinIcon/> },
+              { label: "Email", href: "mailto:milanpatelb06@gmail.com", icon: <Mail size={13} /> },
             ].map(link => (
               <MagneticButton key={link.label}>
                 <a href={link.href} target="_blank" rel="noopener noreferrer" style={{
